@@ -2,10 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.root {
+  position: absolute;
+  display: flex;
+  align-items: center; /*Most important for centering everything in cotainer*/
+  justify-content: center;
+  /*border: 10px solid rgb(107, 203, 255);*/
+
+  background-color: #ffffff;
+  overflow: visible;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
